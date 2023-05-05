@@ -41,5 +41,25 @@ namespace Lab1
         {
 
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            label5.Text = radioButton1.Text;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            label5.Text = radioButton2.Text;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            label5.Text = radioButton3.Text;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
